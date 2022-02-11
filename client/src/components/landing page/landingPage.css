@@ -1,0 +1,43 @@
+body {
+    background: url("../../images/fondito.png");
+
+}
+#landing h1 {
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(243, 248, 248);
+    text-decoration:blink;
+    position: relative;
+    left: 3%;
+    top: 6px;
+    font-family: "Montserrat", sans-serif;
+}
+.trans {
+    opacity: 0.5;
+}
+
+
+.landingbutton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f02c12;
+    border: none;
+    color:black;
+    text-shadow: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin: 2px;
+    font-weight: bold;
+    align-content: space-between;
+    position: absolute;
+    left: 47.5%;
+    bottom: 23%;
+    font-family: "Montserrat", sans-serif;
+}
+.button:hover {
+    background-color: tomato;
+    cursor: pointer;
+}

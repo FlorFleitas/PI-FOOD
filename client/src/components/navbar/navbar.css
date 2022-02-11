@@ -1,0 +1,91 @@
+#logo {
+    margin-left: 120px;
+    width: auto;
+
+}
+.topnav {
+    display: flex;
+    background-color:moccasin;
+    box-sizing:content-box;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 85px;
+    position: fixed;
+    z-index: 10; 
+    box-shadow:  0 3px 3px rgb(248, 193, 130);
+}
+
+.topnav img {
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    top: -52px;
+}
+.topnav li {
+    font-size: 18px;
+    margin-left: 72px;
+}
+
+
+
+
+
+.navlinks {
+    display: block;
+    width: 860px;
+    position: absolute;
+    left: -185px;
+    top:43px;
+}
+
+.buscar {
+    position: absolute;
+    padding: 5px;
+    right: 5%;
+}
+
+.buscar input {
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:rgb(248, 193, 130);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 60%;
+    cursor: pointer;
+    background-image: url("../../images/search-solid.svg");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+}
+
+
+.buscar:hover input{
+    width: 240px;
+}
+
+.buscar input:focus{
+    width: 240px;
+}

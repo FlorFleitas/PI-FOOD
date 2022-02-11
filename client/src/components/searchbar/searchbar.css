@@ -1,0 +1,35 @@
+.barra {
+    position: absolute;
+    padding: 5px;
+    right: 26.5%;
+    top: 35%
+}
+
+.barra input {
+    width: 540px;
+    height: 66px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 10px; 
+    opacity: 60%;
+}
+.barra button {
+    background-image: url("../../images/search-solid.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    background-color: white;
+    width: 85px;
+    height: 66px;
+    padding: 0 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 7%;
+    border: none;
+    right: 1%;
+    opacity: 10%;
+}
+

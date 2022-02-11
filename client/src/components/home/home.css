@@ -1,0 +1,107 @@
+#home {
+    background: url("../../images/fff.png");
+    background-repeat:repeat-y;
+    color:white;
+    font-size: 20px;
+    text-shadow: 1px 1px rgb(243, 248, 248);
+    text-decoration:blink;
+    
+}
+
+.section {
+display: grid;
+grid-template-columns: 400px 400px 400px;
+justify-content: center;
+}
+
+
+.notfound {
+    height: 700px;
+    background-image: url("../../images/fff.png");
+    margin-top: 0%;
+    background-color: #ffffff50;
+
+    
+}
+.notfound h1 {
+    position: relative;
+    top: 17%;
+    left: 1%;
+    font-size: 40px;
+}
+.notfound img {
+    position: relative;
+    top: 21%;
+    width: 600px;
+    
+    
+}
+.notfound button {
+    position: absolute;
+    top: 4%;
+    left: 47%;
+    width: 7%;
+    font-size: 18px;
+}
+
+
+.h5 {
+    text-shadow: none;
+    position: absolute;
+    top: 22%;
+    left: 39.5%;
+    font-size: 58px;
+
+}
+
+
+.addrecipe {
+    margin-top: 130px;
+    position: absolute;
+    right: 8%;
+    font-weight: bold;
+    
+}
+
+.clean button{
+    margin-top: 400px;
+    margin-left: 18%;
+    margin-bottom: 5px ;
+    background: rgb(248, 193, 130);
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    right: -5%;
+    top: 37px;
+    font-size: 15px;
+
+    
+}
+
+
+
+
+
+
+a:link{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+
+}
+a:visited {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+.filters select {
+    border: none;
+    margin: 5px;
+    background-color: moccasin;
+    height: 25px;
+    position: relative;
+    left: 32.5%
+}
+
