@@ -1,3 +1,4 @@
+import { postRecipe } from "../actions"
 
 
 const initialState = {
@@ -88,7 +89,7 @@ function rootReducer(state = initialState, action) {
                 recipes: action.payload
             }
 
-        case "POST_RECIPES":
+        case "POST_RECIPE":
             return {
                 ...state,
             }
